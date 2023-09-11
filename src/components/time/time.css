@@ -29,9 +29,13 @@
   
   @font-face {
     font-family: clock;
-    src: url('./fonts/led_real.ttf');
+    src: url('./../../fonts/led_real.ttf');
   }
   
   .time-font{
     font-family: clock;
+  }
+
+  .test{
+    color: red;
   }

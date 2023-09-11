@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './../../time.css'
+import './time.css';
 
 const DigitCalc = ({indianTime, difference, country, fn}) => {
 
@@ -12,7 +12,8 @@ const DigitCalc = ({indianTime, difference, country, fn}) => {
     
   return (
     <div className="container-time">
-      <div className="time-row  m-30" >              
+      <div className="time-row  m-30" >    
+      <div className='test clock'> Test</div>          
           <div className="course-content m-left">
             <h4>{country}</h4>
             <p className='time-font'>
