@@ -29,7 +29,8 @@
   
   @font-face {
     font-family: clock;
-    src: url('./../../fonts/led_real.ttf');
+    /* src: url('./../../fonts/ledreali.ttf'); */
+    src: url('./../../fonts/alarmclock.ttf');
   }
   
   .time-font{

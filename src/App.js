@@ -42,11 +42,11 @@ function App() {
       
       
       {isSubmit && <>
-        <DigitCalc indianTime={time} difference="3" country="Australia" fn={counter}/>
+        {/* <DigitCalc indianTime={time} difference="3" country="Australia" fn={counter}/>
         <DigitCalc indianTime={time} difference="4" country="UAE" fn={counter}/>
-        <DigitCalc indianTime={time} difference="5" country="Canada" fn={counter}/>
+        <DigitCalc indianTime={time} difference="5" country="Canada" fn={counter}/> */}
        
-        {/* <CalculateTime indianTime={time} timeDifference="4:30" operationMode="+" country="Australia"/> */}
+        <CalculateTime indianTime={time} timeDifference="4:30" operationMode="+" country="Australia"/>
       </>}
       
     </div>

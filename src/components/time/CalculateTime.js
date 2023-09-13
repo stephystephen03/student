@@ -7,17 +7,17 @@ const CalculateTime = ({indianTime, timeDifference, operationMode, country}) => 
 
     useEffect(()=>{
       const [hoursDiff, minsDiff] = timeDifference.split(":");
-
+      console.log("hoursDiff, minsDiff", hoursDiff, minsDiff)
       const indian = moment(indianTime, 'hh:mm');
+      console.log("indian", indian)
+
       // let h = indian.add(hoursDiff, 'hours').hours(); 
       // const m = indian.add(minsDiff, 'minutes').minutes(); 
 
 
       const time = indian.add(hoursDiff, 'hours').add(minsDiff, 'minutes');
-      console.log(time)
+      console.log("Testing ",time)
       setTime(time);
-
-
  
 
     }, [])   
